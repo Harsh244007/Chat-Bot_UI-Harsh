@@ -2,10 +2,12 @@ import * as React from 'react'
 import "./Bot.css"
 
 export default function Bot() {
-   
+     const openInNewTab = () => {
+    window.open("https://www.linkedin.com/in/harsh-patel244/", '_blank', 'noopener,noreferrer');
+  };
     return (
         
-        <div className='mainchat'  style={{
+        <div className='mainchat' onClick={()=>openInNewTab()} style={{
             float: "right", margin: "0.5vw 0.5vw 0vw 2vw", display: "block", height: "18vw", width: "32vw", color:"black"}}>
             <div style={{
                 backgroundColor: 'darkorange', height: "100%",
