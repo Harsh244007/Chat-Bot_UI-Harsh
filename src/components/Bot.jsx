@@ -5,18 +5,18 @@ export default function Bot() {
    
     return (
         <div style={{
-            float: "right", margin: "2vw 1vw 0vw 2vw", display: "block", height: "40vw", width: "50vw", color:"black"}}>
+            float: "right", margin: "0.5vw 0.5vw 0vw 2vw", display: "block", height: "27vw", width: "35vw", color:"black"}}>
             <div style={{
                 backgroundColor: 'darkorange', height: "100%",
                border: "1px solid grey",
                 borderRadius: "3vw 3vw 0vw 0vw"
             }}>
                 
-                <div style={{padding:"5vw 10vw 10vw 10vw",justifyContent:"center",alignItems:"center",}}>
-                    <p style={{fontSize:"3.2vw"}}>IRIS</p>
-                    <p style={{fontSize:"2.3vw"}}>Hello 👋</p>
-                    <p style={{fontSize:"2.3vw"}}>I am Iris, a Virtual Assitant</p>
-                    <p style={{fontSize:"2.3vw"}}>How may I help you?</p>
+                <div style={{padding:"1vw 2vw 6vw 8vw",justifyContent:"center",alignItems:"center",}}>
+                    <p style={{fontSize:"2.0vw"}}>IRIS</p>
+                    <p style={{fontSize:"1.4vw"}}>Hello 👋</p>
+                    <p style={{fontSize:"1.4vw"}}>I am Iris, a Virtual Assitant</p>
+                    <p style={{fontSize:"1.4vw"}}>How may I help you?</p>
           </div>
              <div className='harsh'>
                     <div><img className='imageh' src={"https://www.svgrepo.com/show/91857/robot.svg"} alt="" /></div>
@@ -34,7 +34,7 @@ export default function Bot() {
             
             <div style={{
                 // zIndex:"0",
-                backgroundColor: 'white', height: "45vw",
+                backgroundColor: 'white', height: "26vw",
                 border: "1px solid grey",
                 borderRadius: "0vw 0vw 3vw 3vw"
             }}>
