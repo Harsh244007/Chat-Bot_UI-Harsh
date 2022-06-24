@@ -10,7 +10,7 @@ const Main = () => {
         </div>
         <div>
             <button style={{
-            width: "20vw", height: "5vh", borderRadius: "1vw", backgroundColor: "darkorange"
+            width: "15vw", height: "10vh", borderRadius: "1vw", backgroundColor: "darkorange"
         ,float:"right", margin:"2vw 1vw 0vw 2vw"
         }}
             onClick={() => { setTru(!tru); }}><p style={{fontSize:"2.5vw"}}>ChatBox</p></button>
