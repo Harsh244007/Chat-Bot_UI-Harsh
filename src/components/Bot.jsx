@@ -17,7 +17,7 @@ export default function Bot() {
                 
                 <div className='mainiris' style={{padding:"1vw 2vw 3vw 7vw",justifyContent:"center",alignItems:"center",}}>
                     <p style={{fontSize:"2.0vw"}}>IRIS</p>
-                    <p style={{fontSize:"1.4vw"}}>Hello 👋</p>
+                    <p style={{fontSize:"1.4vw"}}>Hello 👋 </p>
                     <p style={{fontSize:"1.4vw"}}>I am Iris, a Virtual Assitant</p>
                     <p style={{fontSize:"1.4vw"}}>How may I help you?</p>
           </div>
@@ -29,7 +29,7 @@ export default function Bot() {
                         <button className="buttn2"><p>How do I pay my Credit card bill?</p></button>
                         <button className="buttn3"><p> How can I get my Account Statement? </p></button>
                         <button className="buttn4"><p>What is the tenure of Fixed Deposit?</p></button>
-                        <button className='final'><p>Start a New Conversation</p></button>
+                        <button className='final'><p className='starta'>Start a New Conversation</p></button>
                 </div>
                 
                 </div> 

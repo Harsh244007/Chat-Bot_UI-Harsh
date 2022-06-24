@@ -109,8 +109,20 @@
     animation:9s fadeIn2;
      animation-fill-mode:forwards; 
   visibility: hidden; box-shadow: 0.2vw 0.2vw grey; 
+  
 
 }
+
+.starta{
+  animation:mymove2 5s  infinite;
+}
+
+@keyframes mymove2 {
+  from {font-size: 1.3vw;font-weight: 600;}
+  to{font-size: 1.1vw;font-weight: 400;}
+  to{font-size: 0.9vw;font-weight: 500;}
+}
+
 @keyframes fadeIn2 {
   50% {
     visibility: hidden;
@@ -123,7 +135,14 @@
   position: fixed;
   bottom: 1vw;
   right: 1vw;
+    animation: mymove 2s infinite;
 }
+
+@keyframes mymove {
+  from {width:12vw;height: 5vw;box-shadow: 1vw 1vw 1vw 1vw rgba(0, 8, 8, 0.27);}
+  to{width:10vw;height: 3vw;}
+}
+
 .textmain{
   font-size: 2vw;
   color: white;
