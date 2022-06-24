@@ -10,7 +10,7 @@ const Main = () => {
            {tru?<Bot />:""}
         </div>
         <div>
-            <button style={{
+            <button className='button13' style={{
             width: "10vw", height: "3vw", borderRadius: "1vw", backgroundColor: "darkorange",fontSize:"0.1vw"
         ,float:"right", margin:"0.5vw 1vw 0vw 1vw"
         }}

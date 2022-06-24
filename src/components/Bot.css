@@ -119,7 +119,16 @@
     visibility: visible;
   }
 }
-
+.button13{
+  position: fixed;
+  bottom: 1vw;
+  right: 1vw;
+}
+.mainchat{
+   position: fixed;
+  bottom: 31vw;
+  right: 2vw;
+}
 
 
 @keyframes fadeIn {
