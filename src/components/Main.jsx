@@ -5,7 +5,10 @@ import "./Bot.css"
 const Main = () => {
     const [tru, setTru] = useState(false)
     const [tex, setTex]= useState("Show Chat Box") 
-    return (<div className='home' style={{display:"flex"}}>
+    return (
+        <>{!tru?
+            <h1 className='textmain'>You will find chat box button in  bottom right side.</h1>:""}
+        <div className='home' style={{ display: "flex" }}>
         <div>
            {tru?<Bot />:""}
         </div>
@@ -23,7 +26,8 @@ const Main = () => {
 
                            }}><p style={{fontSize:"1.3vw"}}>{tex}</p></button>
      </div>
-        </div>
+            </div>
+            </>
   )
 }
 

@@ -124,6 +124,12 @@
   bottom: 1vw;
   right: 1vw;
 }
+.textmain{
+  font-size: 2vw;
+  color: white;
+  text-align: center;
+  background-color: black;
+}
 .mainchat{
    position: fixed;
   bottom: 27vw;

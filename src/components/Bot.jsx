@@ -4,6 +4,7 @@ import "./Bot.css"
 export default function Bot() {
    
     return (
+        
         <div className='mainchat'  style={{
             float: "right", margin: "0.5vw 0.5vw 0vw 2vw", display: "block", height: "18vw", width: "32vw", color:"black"}}>
             <div style={{
@@ -41,6 +42,7 @@ export default function Bot() {
           
               
 </div>
-    </div>
+            </div>
+            
   );
 }
