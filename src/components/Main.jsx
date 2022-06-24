@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Bot from './Bot'
 import "./Bot.css"
 const Main = () => {
-    const [tru, setTru] = useState(true)
+    const [tru, setTru] = useState(false)
     const [tex, setTex]= useState("Show Chat Box") 
     return (<div className='home' style={{display:"flex"}}>
         <div>
