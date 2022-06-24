@@ -4,6 +4,7 @@ import Bot from './Bot'
 import "./Bot.css"
 const Main = () => {
     const [tru, setTru] = useState(true)
+    const [tex, setTex]= useState("Show Chat Box") 
     return (<div className='home' style={{display:"flex"}}>
         <div>
            {tru?<Bot />:""}
@@ -13,7 +14,14 @@ const Main = () => {
             width: "15vw", height: "10vh", borderRadius: "1vw", backgroundColor: "darkorange"
         ,float:"right", margin:"2vw 1vw 0vw 2vw"
         }}
-            onClick={() => { setTru(!tru); }}><p style={{fontSize:"2.5vw"}}>ChatBox</p></button>
+            onClick={() => { setTru(!tru);
+                            if(tru)
+                                setTex("Show Chat Box") 
+                            else
+                                setTex("Hide Chat Box") 
+                            
+
+                           }}><p style={{fontSize:"2.5vw"}}>ChatBox</p></button>
      </div>
         </div>
   )
