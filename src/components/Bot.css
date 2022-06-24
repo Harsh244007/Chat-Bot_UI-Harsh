@@ -6,7 +6,11 @@
   width:30vw;
   border:0.01vw solid grey;
   border-radius: 20px;
-   margin:0vw 1vw 0vw 2.5vw; 
+   margin:0vw 1vw 0vw 2.5vw;
+   animation: 2s fadeIn;
+     animation-fill-mode:forwards; 
+     
+  visibility: hidden;  
 }
 .home{
     height: 10px!important;
@@ -14,6 +18,10 @@
         position: static;
 }
 .imageh{
+      animation: 3s fadeIn;
+     animation-fill-mode:forwards; 
+     
+  visibility: hidden;
     width: 7vw;
     /* height: 10vw; */
     margin: -4vw 0vw 0vw 4vw;
@@ -27,8 +35,61 @@
 }
 .hap{
     font-size: 1.4vw;
+      animation: 4s fadeIn;
+     animation-fill-mode:forwards;
+  visibility: hidden;
 }
-.buttn{
+.mainiris{
+   animation: 1s fadeIn;
+     animation-fill-mode:forwards; 
+     
+  visibility: hidden; 
+}
+.buttn1{
+    animation: 5s fadeIn;
+     animation-fill-mode:forwards; 
+     
+  visibility: hidden; 
+    border: 0.1vw solid black;
+    margin: 0.4vw 0.4vw 0.6vw 0.4vw;
+     /* font-size: 1.7vw; */
+    width: 23vw;
+    height: 3.5vw;
+    border-radius: 1vw;
+    text-overflow:inherit;
+}
+.buttn2{
+    animation: 6s fadeIn;
+     animation-fill-mode:forwards; 
+     
+  visibility: hidden; 
+    border: 0.1vw solid black;
+    margin: 0.4vw 0.4vw 0.6vw 0.4vw;
+     /* font-size: 1.7vw; */
+    width: 23vw;
+    height: 3.5vw;
+    border-radius: 1vw;
+    text-overflow:inherit;
+}
+.buttn3{
+    animation: 7s fadeIn;
+     animation-fill-mode:forwards; 
+     
+  visibility: hidden; 
+    border: 0.1vw solid black;
+    margin: 0.4vw 0.4vw 0.6vw 0.4vw;
+     /* font-size: 1.7vw; */
+    width: 23vw;
+    height: 3.5vw;
+    border-radius: 1vw;
+    text-overflow:inherit;
+}
+
+
+.buttn4{
+    animation:8s fadeIn;
+     animation-fill-mode:forwards; 
+  visibility: hidden; 
     border: 0.1vw solid black;
     margin: 0.4vw 0.4vw 0.6vw 0.4vw;
      /* font-size: 1.7vw; */
@@ -38,8 +99,26 @@
     text-overflow:inherit;
 }
 .final{
-    text-align: center;
-/* width: 10vw; */
+ width: 20vw;
+      border: 1px solid black;
+ text-align: center;
+    margin: 2vw 3vw 0vw 2vw;
+    border-radius: 3vw;
+    height: 4vw;
+      box-shadow: 0.2vw 0.2vw grey;
+      
+    animation:9s fadeIn;
+     animation-fill-mode:forwards; 
+  visibility: hidden; 
+
+}
+@keyframes fadeIn {
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
 }
 
 .final>p{
@@ -47,15 +126,7 @@
     font-weight: 600;
       
 }
-.final{
-    width: 20vw;
-      border: 1px solid black;
- text-align: center;
-    margin: 2vw 3vw 0vw 2vw;
-    border-radius: 3vw;
-    height: 4vw;
-      box-shadow: 0.2vw 0.2vw grey;
-}
+
 .buttn>p{
     font-size: 1.2vw;
 }
