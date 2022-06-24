@@ -5,21 +5,21 @@ export default function Bot() {
    
     return (
         <div  style={{
-            float: "right", margin: "0.5vw 0.5vw 0vw 2vw", display: "block", height: "27vw", width: "35vw", color:"black"}}>
+            float: "right", margin: "0.5vw 0.5vw 0vw 2vw", display: "block", height: "18vw", width: "32vw", color:"black"}}>
             <div style={{
                 backgroundColor: 'darkorange', height: "100%",
                border: "1px solid grey",
                 borderRadius: "3vw 3vw 0vw 0vw"
             }}>
                 
-                <div className='mainiris' style={{padding:"1vw 2vw 6vw 7vw",justifyContent:"center",alignItems:"center",}}>
+                <div className='mainiris' style={{padding:"1vw 2vw 3vw 7vw",justifyContent:"center",alignItems:"center",}}>
                     <p style={{fontSize:"2.0vw"}}>IRIS</p>
                     <p style={{fontSize:"1.4vw"}}>Hello 👋</p>
                     <p style={{fontSize:"1.4vw"}}>I am Iris, a Virtual Assitant</p>
                     <p style={{fontSize:"1.4vw"}}>How may I help you?</p>
           </div>
              <div className='harsh'>
-                    <div><img className='imageh' src={"https://www.svgrepo.com/show/91857/robot.svg"} alt="" /></div>
+                    <div><img className='imageh' src={"https://cdn.dribbble.com/users/1136598/screenshots/9718756/media/9330f6f181d7ec79c604d53dcdcf7607.gif"} alt="" /></div>
                     <div className='ha'>
                         <p className='hap'>Frequently Asked Questions ?</p>
                         <button className="buttn1"><p>Can I redeem my FB before the original term?</p></button>
