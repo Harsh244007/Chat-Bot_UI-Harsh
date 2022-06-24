@@ -1,12 +1,17 @@
 .harsh{
     color: black;
     background-color: white !important;
- position:fixed;
+ position:absolute;
  height:50vw;
   width:45vw;
   border:0.01vw solid grey;
   border-radius: 20px;
    margin:0vw 1vw 0vw 2.5vw; 
+}
+.home{
+    height: 10px!important;
+    width: 10px!important;
+        position: static;
 }
 .imageh{
     width: 10vw;

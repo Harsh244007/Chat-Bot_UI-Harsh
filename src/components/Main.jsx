@@ -1,10 +1,10 @@
 
 import React, { useState } from 'react'
 import Bot from './Bot'
-
+import "./Bot.css"
 const Main = () => {
     const [tru, setTru] = useState(true)
-    return (<div style={{display:"flex"}}>
+    return (<div className='home' style={{display:"flex"}}>
         <div>
            {tru?<Bot />:""}
         </div>
