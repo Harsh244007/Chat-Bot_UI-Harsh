@@ -1,0 +1,56 @@
+.harsh{
+    color: black;
+    background-color: white !important;
+ position:fixed;
+ height:50vw;
+  width:45vw;
+  border:0.01vw solid grey;
+  border-radius: 20px;
+   margin:0vw 1vw 0vw 2.5vw; 
+}
+.imageh{
+    width: 10vw;
+    /* height: 10vw; */
+    margin: -4vw 0vw 0vw 4vw;
+    box-shadow:0vw 0vw 0vw 0.13vw;
+    border-radius: 10vw;
+}
+.ha{
+    margin: 2vw 0vw 1vw 3vw;
+}
+.hap{
+    font-size: 2.2vw;
+}
+.buttn{
+    border: 0.1vw solid black;
+    margin: 1vw 1vw 1vw 1vw;
+     /* font-size: 1.7vw; */
+    width: 37vw;
+    height: 5vw;
+    border-radius: 1vw;
+    text-overflow:inherit;
+}
+.final{
+    text-align: center;
+
+}
+.test1{
+
+}
+.final>p{
+    font-size:2.2vw;
+    font-weight: 600;
+      
+}
+.final{
+    width: 30vw;
+      border: 1px solid black;
+ text-align: center;
+    margin: 2vw 1vw 1vw 4vw;
+    border-radius: 2vw;
+    height: 5vw;
+      box-shadow: 0.2vw 0.2vw grey;
+}
+.buttn>p{
+    font-size: 1.7vw;
+}
