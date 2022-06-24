@@ -21,7 +21,7 @@ const Main = () => {
                                 setTex("Hide Chat Box") 
                             
 
-                           }}><p style={{fontSize:"2.5vw"}}>ChatBox</p></button>
+                           }}><p style={{fontSize:"2.5vw"}}>{tex}</p></button>
      </div>
         </div>
   )
