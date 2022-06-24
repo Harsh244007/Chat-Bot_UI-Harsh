@@ -105,12 +105,23 @@
     margin: 0.5vw 3vw 0vw 2.5vw;
     border-radius: 3vw;
     height: 3.5vw;
-      box-shadow: 0.2vw 0.2vw grey;
-    animation:9s fadeIn;
+      
+    animation:9s fadeIn2;
      animation-fill-mode:forwards; 
-  visibility: hidden; 
+  visibility: hidden; box-shadow: 0.2vw 0.2vw grey; 
 
 }
+@keyframes fadeIn2 {
+  50% {
+    visibility: hidden;
+  }
+  100% {
+    visibility: visible;
+  }
+}
+
+
+
 @keyframes fadeIn {
   50% {
     visibility: hidden;
