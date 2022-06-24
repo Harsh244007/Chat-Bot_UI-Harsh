@@ -7,7 +7,7 @@ const Main = () => {
     const [tex, setTex]= useState("Show Chat Box") 
     return (
         <>{!tru?
-            <h1 className='textmain'>You will find chat box button in  bottom right side.</h1>:""}
+            <h1 className='textmain'>You can find Chat Box  in  bottom right side.</h1>:""}
         <div className='home' style={{ display: "flex" }}>
         <div>
            {tru?<Bot />:""}
