@@ -12,7 +12,7 @@ export default function Bot() {
                 borderRadius: "3vw 3vw 0vw 0vw"
             }}>
                 
-                <div className='mainiris' style={{padding:"1vw 2vw 6vw 8vw",justifyContent:"center",alignItems:"center",}}>
+                <div className='mainiris' style={{padding:"1vw 2vw 6vw 7vw",justifyContent:"center",alignItems:"center",}}>
                     <p style={{fontSize:"2.0vw"}}>IRIS</p>
                     <p style={{fontSize:"1.4vw"}}>Hello 👋</p>
                     <p style={{fontSize:"1.4vw"}}>I am Iris, a Virtual Assitant</p>
