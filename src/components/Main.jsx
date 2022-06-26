@@ -33,7 +33,7 @@ const Main = () => {
             >
             {!tru ?
             <h1 className='textmain'style={{color:`${sol}`}} >You can find Chat Box  in  bottom right side.</h1>:""}
-            <button className='darkm' onClick={change}><MoonIcon w={8} h={8}
+            <button className='darkm' onClick={change}><MoonIcon w={12} h={10}
                 color={`${sol}`}
                 
             />  </button><div className='home' style={{ display: "flex" }}>
