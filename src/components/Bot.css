@@ -151,6 +151,9 @@
 .textmain{
   font-size: 3vh;
   /* color: white; */
+  position:fixed;
+  left: 10vw;
+  right: 10vw;
   text-align: center
 }
 .mainchat{
