@@ -12,6 +12,10 @@
      
   visibility: hidden;  
 }
+.js-focus-visible :focus:not(.focus-visible) {
+  outline: none;
+}
+
 .home{
     height: 10px!important;
     width: 10px!important;
@@ -116,6 +120,7 @@
   right: 2vw;
   width: 6vw;
   outline: none !important;
+  
   height: 6vh;
 }
 .starta{

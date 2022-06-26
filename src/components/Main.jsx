@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 import Bot from './Bot'
 import "./Bot.css" 
 import { MoonIcon } from '@chakra-ui/icons'
-
+import 'focus-visible/dist/focus-visible.min';
 
 
 const Main = () => {
@@ -30,7 +30,7 @@ const Main = () => {
                 backgroundColor: `${colo}`, height: "1000vw"
             }}
             
-            >
+        >
             {!tru ?
             <h1 className='textmain'style={{color:`${sol}`}} >You can find Chat Box  in  bottom right side.</h1>:""}
             <button className='darkm' onClick={change}><MoonIcon w={12} h={10}
