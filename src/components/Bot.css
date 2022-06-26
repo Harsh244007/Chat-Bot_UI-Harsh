@@ -115,6 +115,7 @@
   top: 1vw;
   right: 2vw;
   width: 6vw;
+  outline: none !important;
   height: 6vh;
 }
 .starta{
