@@ -114,6 +114,8 @@
   position: fixed;
   top: 1vw;
   right: 2vw;
+  width: 6vw;
+  height: 6vh;
 }
 .starta{
   animation:mymove2 5s  infinite;
