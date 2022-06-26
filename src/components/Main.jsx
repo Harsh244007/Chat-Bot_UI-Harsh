@@ -3,8 +3,6 @@ import React, { useState } from 'react'
 import Bot from './Bot'
 import "./Bot.css" 
 import { MoonIcon } from '@chakra-ui/icons'
-import 'focus-visible/dist/focus-visible.min';
-
 
 const Main = () => {
     const [tru, setTru] = useState(false)

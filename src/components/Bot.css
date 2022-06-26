@@ -12,10 +12,9 @@
      
   visibility: hidden;  
 }
-.js-focus-visible :focus:not(.focus-visible) {
-  outline: none;
+button::after{
+  background-color: none;
 }
-
 .home{
     height: 10px!important;
     width: 10px!important;
